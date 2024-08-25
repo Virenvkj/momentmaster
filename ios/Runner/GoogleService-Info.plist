@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyAGXO9TBqS_xuQ9-OIlSiEl9Tz2EEUE6q0</string>
+	<key>GCM_SENDER_ID</key>
+	<string>67990779398</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.viren.momentmaster</string>
+	<key>PROJECT_ID</key>
+	<string>momentmaster-13fd4</string>
+	<key>STORAGE_BUCKET</key>
+	<string>momentmaster-13fd4.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:67990779398:ios:328a401b259d6186133587</string>
+</dict>
+</plist>

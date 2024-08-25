@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "67990779398",
+    "project_id": "momentmaster-13fd4",
+    "storage_bucket": "momentmaster-13fd4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:67990779398:android:bec9bacdfb8379ea133587",
+        "android_client_info": {
+          "package_name": "com.viren.momentmaster"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVxouZ1h4SjmBNvjCJA91VwsNnLkkssvI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
