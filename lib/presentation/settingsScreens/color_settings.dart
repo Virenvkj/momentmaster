@@ -6,7 +6,7 @@ import 'package:momentmaster/core/constants/app_styles.dart';
 import 'package:momentmaster/core/service/navigation_service2.dart';
 import 'package:momentmaster/presentation/common/common_bottom_appbar.dart';
 import 'package:momentmaster/presentation/common/getColorList.dart';
-import 'package:momentmaster/presentation/parameterSettings/colorEdit.dart';
+import 'package:momentmaster/presentation/parameterSettings/color_edit.dart';
 
 class ColorSettings extends StatefulWidget {
   const ColorSettings({super.key});

@@ -14,9 +14,9 @@ import 'package:momentmaster/presentation/appointmentScreens/pink.dart';
 import 'package:momentmaster/presentation/appointmentScreens/reminder.dart';
 import 'package:momentmaster/presentation/appointmentScreens/timer.dart';
 import 'package:momentmaster/presentation/common/vertical_progress_bar.dart';
-import 'package:momentmaster/presentation/presentationScreens/choose_deadLine_SchedulingRequest.dart';
+import 'package:momentmaster/presentation/presentationScreens/choose_deadLine_scheduling_request.dart';
 import 'package:momentmaster/presentation/presentationScreens/choose_deadline_for.dart';
-import 'package:momentmaster/presentation/presentationScreens/choose_deadline_startingScreen.dart';
+import 'package:momentmaster/presentation/presentationScreens/choose_deadline_starting_screen.dart';
 import 'package:momentmaster/presentation/presentationScreens/choose_deadline_timeperiod.dart';
 import 'package:momentmaster/presentation/presentationScreens/view_presentation.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
@@ -542,12 +542,10 @@ class _EditPresentation1State extends State<EditPresentation1>
                     ),
                   ),
                 ),
-                Container(
-                  child: IconButton(
-                    color: AppColors.primaryGrey,
-                    icon: const Icon(Icons.more_vert),
-                    onPressed: showDialogs,
-                  ),
+                IconButton(
+                  color: AppColors.primaryGrey,
+                  icon: const Icon(Icons.more_vert),
+                  onPressed: showDialogs,
                 ),
               ],
             ),

@@ -420,66 +420,64 @@ class _EditAppointmentState extends State<EditAppointment> {
                     ),
                     AppConstants.sizer(0.015, 0, context),
                     openRepeatOptions
-                        ? Container(
-                            child: Row(
+                        ? Row(
+                          children: [
+                            AppConstants.sizer(0, 0.14, context),
+                            Column(
+                              crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                AppConstants.sizer(0, 0.14, context),
-                                Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    InkWell(
-                                      onTap: () {
-                                        changeText2(AppStrings.everyDay);
-                                      },
-                                      child: Text(
-                                        AppStrings.everyDay,
-                                        style:
-                                            AppStyles.quickSandText17(context),
-                                        textAlign: TextAlign.left,
-                                      ),
-                                    ),
-                                    AppConstants.sizer(0.03, 0, context),
-                                    InkWell(
-                                      onTap: () {
-                                        changeText2(AppStrings.everyWeek);
-                                      },
-                                      child: Text(
-                                        AppStrings.everyWeek,
-                                        style:
-                                            AppStyles.quickSandText17(context),
-                                        textAlign: TextAlign.left,
-                                      ),
-                                    ),
-                                    AppConstants.sizer(0.03, 0, context),
-                                    InkWell(
-                                      onTap: () {
-                                        changeText2(AppStrings.everyMonth);
-                                      },
-                                      child: Text(
-                                        AppStrings.everyMonth,
-                                        style:
-                                            AppStyles.quickSandText17(context),
-                                        textAlign: TextAlign.left,
-                                      ),
-                                    ),
-                                    AppConstants.sizer(0.03, 0, context),
-                                    InkWell(
-                                      onTap: () {
-                                        changeText2(AppStrings.everyYear);
-                                      },
-                                      child: Text(
-                                        AppStrings.everyYear,
-                                        style:
-                                            AppStyles.quickSandText17(context),
-                                        textAlign: TextAlign.left,
-                                      ),
-                                    ),
-                                    AppConstants.sizer(0.03, 0, context),
-                                  ],
+                                InkWell(
+                                  onTap: () {
+                                    changeText2(AppStrings.everyDay);
+                                  },
+                                  child: Text(
+                                    AppStrings.everyDay,
+                                    style:
+                                        AppStyles.quickSandText17(context),
+                                    textAlign: TextAlign.left,
+                                  ),
                                 ),
+                                AppConstants.sizer(0.03, 0, context),
+                                InkWell(
+                                  onTap: () {
+                                    changeText2(AppStrings.everyWeek);
+                                  },
+                                  child: Text(
+                                    AppStrings.everyWeek,
+                                    style:
+                                        AppStyles.quickSandText17(context),
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                                AppConstants.sizer(0.03, 0, context),
+                                InkWell(
+                                  onTap: () {
+                                    changeText2(AppStrings.everyMonth);
+                                  },
+                                  child: Text(
+                                    AppStrings.everyMonth,
+                                    style:
+                                        AppStyles.quickSandText17(context),
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                                AppConstants.sizer(0.03, 0, context),
+                                InkWell(
+                                  onTap: () {
+                                    changeText2(AppStrings.everyYear);
+                                  },
+                                  child: Text(
+                                    AppStrings.everyYear,
+                                    style:
+                                        AppStyles.quickSandText17(context),
+                                    textAlign: TextAlign.left,
+                                  ),
+                                ),
+                                AppConstants.sizer(0.03, 0, context),
                               ],
                             ),
-                          )
+                          ],
+                        )
                         : Container(),
                     Container(
                       padding: const EdgeInsets.all(10),

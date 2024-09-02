@@ -4,12 +4,12 @@ import 'package:momentmaster/core/constants/app_constants.dart';
 import 'package:momentmaster/core/constants/app_strings.dart';
 import 'package:momentmaster/core/constants/app_styles.dart';
 import 'package:momentmaster/core/service/navigation_service2.dart';
-import 'package:momentmaster/presentation/calendarScreens/common/DeadlineCommonWids.dart';
+import 'package:momentmaster/presentation/calendarScreens/common/deadline_common_wids.dart';
 import 'package:momentmaster/presentation/calendarScreens/common/Icons/homeworkIcon.dart';
 import 'package:momentmaster/presentation/calendarScreens/common/Icons/presentation.dart';
 import 'package:momentmaster/presentation/calendarScreens/common/Icons/projectDelivery.dart';
 import 'package:momentmaster/presentation/calendarScreens/common/Icons/testIcon.dart';
-import 'package:momentmaster/presentation/calendarScreens/common/linearProgressBar.dart';
+import 'package:momentmaster/presentation/calendarScreens/common/linear_progress_bar.dart';
 import 'package:momentmaster/presentation/deadline/choose_deadline_date.dart';
 
 class CreateDeadline extends StatefulWidget {

@@ -3,7 +3,7 @@ import 'package:momentmaster/core/constants/app_colors.dart';
 import 'package:momentmaster/core/constants/app_constants.dart';
 import 'package:momentmaster/core/constants/app_strings.dart';
 import 'package:momentmaster/core/constants/app_styles.dart';
-import 'package:momentmaster/presentation/calendarScreens/common/linearProgressBar.dart';
+import 'package:momentmaster/presentation/calendarScreens/common/linear_progress_bar.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 import 'package:syncfusion_flutter_datepicker/datepicker.dart';
 

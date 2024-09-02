@@ -7,11 +7,9 @@ import 'package:momentmaster/core/utils/settings_menu_list.dart';
 import 'package:momentmaster/presentation/appointmentScreens/calendars.dart';
 import 'package:momentmaster/presentation/appointmentScreens/parameters.dart';
 import 'package:momentmaster/presentation/appointmentScreens/settings.dart';
-import 'package:momentmaster/presentation/appointmentScreens/subscription.dart';
-import 'package:momentmaster/presentation/common/choose_plan.dart';
 import 'package:momentmaster/presentation/common/common_bottom_appbar.dart';
-import 'package:momentmaster/presentation/settingsScreens/calendarSettings.dart';
-import 'package:momentmaster/presentation/settingsScreens/generalSettings.dart';
+import 'package:momentmaster/presentation/settingsScreens/calendar_settings.dart';
+import 'package:momentmaster/presentation/settingsScreens/general_settings.dart';
 import 'package:momentmaster/presentation/settingsScreens/parameters_settings.dart';
 
 import '../../core/service/navigation_service2.dart';
@@ -84,20 +82,6 @@ class _SettingsMenuState extends State<SettingsMenu> {
                           context, 'push', const CalendarSettings());
                     },
                   ),
-                  // AppConstants.sizer(0.04, 0, context),
-                  // SettingsMenuList.getSettingsAppOptions(
-                  //   context,
-                  //   AppColors.settingsRed,
-                  //   const SubscriptionIcon(),
-                  //   AppStrings.subscription,
-                  //   () {
-                  //     NavigationService2.navigate(
-                  //       context,
-                  //       'push',
-                  //       const ChoosePlanScreen(),
-                  //     );
-                  //   },
-                  // ),
                 ],
               ),
             ],

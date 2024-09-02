@@ -11,11 +11,11 @@ import 'package:momentmaster/presentation/calendarScreens/common/Icons/projectDe
 import 'package:momentmaster/presentation/calendarScreens/common/Icons/testIcon.dart';
 import 'package:momentmaster/presentation/parameterSettings/homework.dart';
 import 'package:momentmaster/presentation/parameterSettings/presentation.dart';
-import 'package:momentmaster/presentation/parameterSettings/projectDelivery.dart';
+import 'package:momentmaster/presentation/parameterSettings/project_delivery.dart';
 
 import '../../core/utils/settings_menu_list.dart';
 import '../common/common_bottom_appbar.dart';
-import '../parameterSettings/testParameter.dart';
+import '../parameterSettings/test_parameter.dart';
 
 class ParameterSettings extends StatefulWidget {
   const ParameterSettings({super.key});

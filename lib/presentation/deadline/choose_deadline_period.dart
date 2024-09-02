@@ -5,7 +5,7 @@ import 'package:momentmaster/core/constants/app_constants.dart';
 import 'package:momentmaster/core/constants/app_strings.dart';
 import 'package:momentmaster/core/constants/app_styles.dart';
 import 'package:momentmaster/core/service/navigation_service2.dart';
-import 'package:momentmaster/presentation/calendarScreens/common/linearProgressBar.dart';
+import 'package:momentmaster/presentation/calendarScreens/common/linear_progress_bar.dart';
 import 'package:momentmaster/presentation/common/common_bottom_appbar.dart';
 import 'package:momentmaster/presentation/deadline/scheduling_requests.dart';
 

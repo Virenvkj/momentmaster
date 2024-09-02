@@ -12,7 +12,7 @@ import 'package:momentmaster/presentation/appointmentScreens/pink.dart';
 import 'package:momentmaster/presentation/appointmentScreens/timer.dart';
 import 'package:momentmaster/presentation/common/common_bottom_appbar.dart';
 import 'package:momentmaster/presentation/common/vertical_progress_bar.dart';
-import 'package:momentmaster/presentation/presentationScreens/choose_deadLine_SchedulingRequest.dart';
+import 'package:momentmaster/presentation/presentationScreens/choose_deadLine_scheduling_request.dart';
 import 'package:momentmaster/presentation/presentationScreens/edit_presentation.dart';
 
 import '../appointmentScreens/reminder.dart';

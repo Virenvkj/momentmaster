@@ -3,7 +3,7 @@ import 'package:momentmaster/core/constants/app_colors.dart';
 import 'package:momentmaster/core/constants/app_strings.dart';
 import 'package:momentmaster/core/constants/app_styles.dart';
 import 'package:momentmaster/core/service/bottom_sheet_service.dart';
-import 'DeadLineTrackerWidget.dart';
+import 'deadline_tracker_widget.dart';
 
 class BottomSheet2 extends StatefulWidget {
   const BottomSheet2({super.key});

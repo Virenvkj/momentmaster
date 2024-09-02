@@ -5,7 +5,7 @@ import 'package:momentmaster/core/constants/app_strings.dart';
 import 'package:momentmaster/core/constants/app_styles.dart';
 import 'package:momentmaster/core/service/navigation_service2.dart';
 import 'package:momentmaster/presentation/appointmentScreens/custom_switch.dart';
-import 'package:momentmaster/presentation/appointmentScreens/generalColors.dart';
+import 'package:momentmaster/presentation/appointmentScreens/general_colors.dart';
 import 'package:momentmaster/presentation/common/common_bottom_appbar.dart';
 import 'package:momentmaster/presentation/settingsScreens/color_settings.dart';
 

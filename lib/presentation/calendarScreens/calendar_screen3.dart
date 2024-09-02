@@ -8,7 +8,7 @@ import 'package:momentmaster/core/service/bottom_sheet_service.dart';
 import 'package:momentmaster/core/service/navigation_service2.dart';
 import 'package:momentmaster/domain/entities/bubble.dart';
 import 'package:momentmaster/presentation/appointmentScreens/new_appointment.dart';
-import 'package:momentmaster/presentation/calendarScreens/common/DeadLineTrackerWidget.dart';
+import 'package:momentmaster/presentation/calendarScreens/common/deadline_tracker_widget.dart';
 import 'package:momentmaster/presentation/common/create_deadline.dart';
 import 'package:momentmaster/presentation/common/floating_action_bubble.dart';
 import 'package:momentmaster/presentation/common/settings_menu.dart';

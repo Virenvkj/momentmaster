@@ -5,7 +5,7 @@ import 'package:get_it/get_it.dart';
 import 'package:momentmaster/core/constants/app_strings.dart';
 import 'package:momentmaster/core/enums/view_state.dart';
 import 'package:momentmaster/core/service/base_model.dart';
-import 'package:momentmaster/presentation/onboarding/onBoarding5.dart';
+import 'package:momentmaster/presentation/onboarding/onboarding5.dart';
 
 GetIt getIt = GetIt.instance;
 

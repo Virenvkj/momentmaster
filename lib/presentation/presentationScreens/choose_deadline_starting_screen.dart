@@ -68,7 +68,6 @@ class _PreChooseDeadlineStartingDateState
       view: CalendarView.month,
       onTap: (val) {
         setState(() {
-          print(val.date.toString());
           Navigator.of(context).pop();
         });
       },
@@ -112,10 +111,8 @@ class _PreChooseDeadlineStartingDateState
               textAlign: TextAlign.center,
             ),
             AppConstants.sizer(0.025, 0, context),
-            Container(
-              child: Column(
-                children: getCalendarList(),
-              ),
+            Column(
+              children: getCalendarList(),
             ),
           ],
         ),

@@ -13,7 +13,7 @@ import 'package:momentmaster/presentation/common/settings_menu.dart';
 import 'package:syncfusion_flutter_calendar/calendar.dart';
 import 'package:table_calendar/table_calendar.dart';
 
-import 'common/DeadLineTrackerWidget.dart';
+import 'common/deadline_tracker_widget.dart';
 
 class CalendarScreen2 extends StatefulWidget {
   const CalendarScreen2({super.key});

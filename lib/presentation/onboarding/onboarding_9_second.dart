@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:momentmaster/core/constants/app_strings.dart';
 import 'package:momentmaster/core/constants/app_styles.dart';
-import 'package:momentmaster/presentation/onboarding/onBoarding9Third.dart';
+import 'package:momentmaster/presentation/onboarding/onboarding_nine_3.dart';
 
 class OnBoardingText9Second extends StatefulWidget {
   const OnBoardingText9Second({super.key});

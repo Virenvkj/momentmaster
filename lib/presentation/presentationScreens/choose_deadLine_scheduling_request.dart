@@ -4,7 +4,7 @@ import 'package:momentmaster/core/constants/app_constants.dart';
 import 'package:momentmaster/core/constants/app_strings.dart';
 import 'package:momentmaster/core/constants/app_styles.dart';
 import 'package:momentmaster/presentation/appointmentScreens/customIcons/blue_tick.dart';
-import 'package:momentmaster/presentation/calendarScreens/common/linearProgressBar.dart';
+import 'package:momentmaster/presentation/calendarScreens/common/linear_progress_bar.dart';
 
 class PresSchedulingRequests extends StatefulWidget {
   const PresSchedulingRequests({super.key});

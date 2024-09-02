@@ -5,16 +5,14 @@ class HashIcon extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      child: const Text(
-        '#',
-        style: TextStyle(
-          fontFamily: 'Quicksand',
-          fontSize: 25,
-          color: Color(0xffffffff),
-        ),
-        textAlign: TextAlign.left,
+    return const Text(
+      '#',
+      style: TextStyle(
+        fontFamily: 'Quicksand',
+        fontSize: 25,
+        color: Color(0xffffffff),
       ),
+      textAlign: TextAlign.left,
     );
   }
 }
