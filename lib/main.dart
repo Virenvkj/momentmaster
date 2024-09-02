@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       title: 'Moment master',
       theme: ThemeData(
         visualDensity: VisualDensity.adaptivePlatformDensity,
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.red),
         useMaterial3: true,
       ),
       home: const SplashScreen(),

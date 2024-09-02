@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_date_picker_timeline/flutter_date_picker_timeline.dart';
+//import 'package:flutter_date_picker_timeline/flutter_date_picker_timeline.dart';
 import 'package:momentmaster/core/constants/app_colors.dart';
 import 'package:momentmaster/core/constants/app_constants.dart';
 import 'package:momentmaster/core/constants/app_strings.dart';
@@ -157,32 +157,32 @@ class _CalendarScreen3State extends State<CalendarScreen3>
         body: ListView(
           // physics: NeverScrollableScrollPhysics(),
           children: [
-            Container(
-              color: Colors.white,
-              height: MediaQuery.of(context).size.height * 0.07,
-              child: FlutterDatePickerTimeline(
-                selectedItemWidth: MediaQuery.of(context).size.width * 0.15,
-                itemRadius: MediaQuery.of(context).size.width * 0.15,
-                selectedItemBackgroundColor: AppColors.primaryRed,
-                selectedItemTextStyle: const TextStyle(
-                  fontFamily: 'Quicksand',
-                  fontSize: 15,
-                  color: Colors.white,
-                  fontWeight: FontWeight.w500,
-                ),
-                unselectedItemTextStyle: const TextStyle(
-                  fontFamily: 'Quicksand',
-                  fontSize: 15,
-                  color: Color(0xffb6b6b6),
-                  fontWeight: FontWeight.w500,
-                ),
-                startDate: DateTime.now(),
-                endDate: DateTime.utc(DateTime.now().year, DateTime.now().month,
-                    totalDaysinCurrentMonth),
-                initialSelectedDate: DateTime.now(),
-                onSelectedDateChange: (DateTime? dateTime) {},
-              ),
-            ),
+            //   Container(
+            //     color: Colors.white,
+            //     height: MediaQuery.of(context).size.height * 0.07,
+            //     child: FlutterDatePickerTimeline(
+            //       selectedItemWidth: MediaQuery.of(context).size.width * 0.15,
+            //       itemRadius: MediaQuery.of(context).size.width * 0.15,
+            //       selectedItemBackgroundColor: AppColors.primaryRed,
+            //       selectedItemTextStyle: const TextStyle(
+            //         fontFamily: 'Quicksand',
+            //         fontSize: 15,
+            //         color: Colors.white,
+            //         fontWeight: FontWeight.w500,
+            //       ),
+            //       unselectedItemTextStyle: const TextStyle(
+            //         fontFamily: 'Quicksand',
+            //         fontSize: 15,
+            //         color: Color(0xffb6b6b6),
+            //         fontWeight: FontWeight.w500,
+            //       ),
+            //       startDate: DateTime.now(),
+            //       endDate: DateTime.utc(DateTime.now().year, DateTime.now().month,
+            //           totalDaysinCurrentMonth),
+            //       initialSelectedDate: DateTime.now(),
+            //       onSelectedDateChange: (DateTime? dateTime) {},
+            //     ),
+            //   ),
             Row(
               children: [
                 IconButton(
